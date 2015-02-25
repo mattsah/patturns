@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Simple Pattern Library</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<script type="text/javascript" src="./lib/alertify.min.js"></script>
+		<link rel="stylesheet" href="./themes/alertify.core.css" />
+
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ace/1.1.8/ace.js"></script>
+
+		<link rel="stylesheet" href="http://rawgit.com/dotink/inKLing/2.0.0-beta/inkling.css" />
+		<link rel="stylesheet" href="./themes/default.css"/>
+
+	</head>
+	<body>
+		<section role="patterns">
+			<nav>
+				<ul id="patterns">
+				</ul>
+			</nav>
+		</section>
+		<section role="editor">
+			<div id="html" class="tab">
+				<h2><a href="#html">HTML</a></h2>
+				<div>
+					<div id="html-code" class="code" contenteditable></div>
+				</div>
+			</div>
+			<div id="css" class="tab" data-part="css">
+				<h2><a href="#css">CSS</a></h2>
+				<div>
+					<div id="css-code" class="code" contenteditable></div>
+				</div>
+			</div>
+			<div id="result" class="tab" data-part="result">
+				<h2><a href="#result">Result</a></h2>
+				<div>
+					<iframe id="preview"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript" src="./lib/patterns.js"></script>
+	</body>
+</html>
